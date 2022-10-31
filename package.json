@@ -1,0 +1,54 @@
+{
+  "name": "Jesty",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "parcel public/index.html -p 3000",
+    "build": "parcel public/index.html",
+    "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
+    "dev-phone": "npx http-server dist -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/khalidsalah1522/jesty-io.git"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Khalid Salah",
+    "email": "khalidsalah.official@gmail.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "gsap": "^3.10.4",
+    "node-sass": "^7.0.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.9",
+    "@babel/eslint-parser": "^7.18.9",
+    "@babel/eslint-plugin": "^7.17.7",
+    "@babel/plugin-syntax-jsx": "^7.18.6",
+    "@babel/plugin-transform-runtime": "^7.18.9",
+    "@babel/preset-env": "^7.18.9",
+    "@babel/preset-react": "^7.18.6",
+    "@parcel/transformer-babel": "^2.6.2",
+    "autoprefixer": "^10.4.7",
+    "eslint": "^8.20.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.6.0",
+    "eslint-plugin-react": "^7.30.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "parcel": "^2.6.2",
+    "postcss": "^8.4.14",
+    "process": "^0.11.10",
+    "tailwindcss": "^3.1.6"
+  },
+  "browserslist": [
+    "last 2 Chrome versions"
+  ]
+}

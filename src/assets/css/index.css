@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+@font-face {
+  font-family: "Sansation";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Sansation"),
+    url("/src/assets/fonts/Sansation_Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Sansation-Light";
+  font-style: normal;
+  font-weight: thin;
+  src: local("Sansation Light"),
+    url("/src/assets/fonts/Sansation_Light.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Sansation-Bold";
+  font-style: normal;
+  font-weight: bold;
+  src: local("Sansation Bold"),
+    url("/src/assets/fonts/Sansation_Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Goldman";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Goldman"),
+    url("/src/assets/fonts/Goldman-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Goldman Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Goldman Bold"),
+    url("/src/assets/fonts/Goldman-Bold.ttf") format("truetype");
+}
