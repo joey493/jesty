@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "dev": "parcel public/index.html -p 3000",
+    "dev": "parcel public/index.html -p 3001",
     "build": "parcel public/index.html",
     "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
     "dev-phone": "npx http-server dist -w"
